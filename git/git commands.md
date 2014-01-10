@@ -1,0 +1,1 @@
+git clone -b new-project git@github.com:User/YourProject.git newProjcet
