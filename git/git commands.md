@@ -5,7 +5,7 @@ git clone -b new-project git@github.com:User/YourProject.git newProject
 #Added a remote repo
 
 ##Setup the repo
-	add the gitignore & readme
+-	add the gitignore & readme
 
 ##Initialize the remote repo
 	git init
@@ -23,4 +23,4 @@ git clone -b new-project git@github.com:User/YourProject.git newProject
 	git push -u origin master
 
 ##Verify
-	go to the remote and verify
+-	go to the remote and verify
