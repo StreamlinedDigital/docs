@@ -9,7 +9,7 @@
 
 
 ##Pull the .gitignore and readme from the remote branch
-	git pull -u origin master
+	git pull origin master
 
 
 ##Add, Commit & Push repo to the remote
