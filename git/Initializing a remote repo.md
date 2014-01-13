@@ -1,8 +1,4 @@
-git clone -b new-project git@github.com:User/YourProject.git newProject
-
-
-
-#Added a remote repo
+#Adding a remote repo
 
 ##Setup the repo
 -	add the gitignore & readme
