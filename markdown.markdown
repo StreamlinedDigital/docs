@@ -59,7 +59,8 @@ Emphasis
 	I am **bold**
 
 
-Markdown Input	Output
+##Links
+
 Inline Method
 This is [an example](http://example.com/ "Optional Title")
 inline link.
@@ -79,68 +80,44 @@ This is an example reference-method link.
 Automatic Links
 <http://example.com/>
 
-<address@example.com></code>
+<address@example.com>
 http://example.com/
 
 address@example.com
 
-Code Blocks
-
-Markdown Input	Output
-Indent with 4 spaces.
+##Code Blocks
 
 This is a normal paragraph.
 
-    This is a code block
-This is a normal paragraph.
+    Indent with 4 spaces.
 
-This is a code block
-Tables
 
-Markdown Input	Output
+##Tables
+
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Row1 Cell1    | Row1 Cell2    |
 | Row2 Cell1    | Row2 Cell2    |
-First Header	Second Header
-Row1 Cell1	Row1 Cell2
-Row2 Cell1	Row2 Cell2
-Image Call
 
-Markdown Input	Output
-![Alt text](/files/expand_arrow.JPG "Image call example")
-Image call example
-Literal Characters
 
+##Image Call
+	![Alt text](/files/expand_arrow.JPG "Image call example")
+
+
+##Special Characters
 The following characters sometimes have special meanings in Markdown. You can make sure Markdown doesn't interpret these characters by placing a backslash in front of them.
 
-\ backslash
-` backtick
-* asterisk
-_ underscore
-{} curly braces
-[] square brackets
-() parentheses
-# hash mark
-+ plus sign
-- minus sign (hyphen)
-. dot
-! exclamation mark
-: colon
-| pipe
-Markdown Input	Output
-\\
-\`
-\*
-\_
-\{\}
-\[\]
-\(\)
-\#
-\+
-\-
-\.
-\!
-\:
-\|
-\ ` * _ {} [] () # + - . ! : |
+	\ backslash
+	` backtick
+	* asterisk
+	_ underscore
+	{} curly braces
+	[] square brackets
+	() parentheses
+	# hash mark
+	+ plus sign
+	- minus sign (hyphen)
+	. dot
+	! exclamation mark
+	: colon
+	| pipe
