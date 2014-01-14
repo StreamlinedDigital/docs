@@ -5,69 +5,34 @@ Important: Different types of Mashery pages have different editing properties. S
 Headers
 
 Markdown Input	Output
-# Level 1 Header (H1)
-## Level 2 Header (H2)
-##### Level 5 Header (H5)
+	# Level 1 Header (H1)
+	## Level 2 Header (H2)
+	##### Level 5 Header (H5)
 
-Level 1 Header (H1)
-
-Level 2 Header (H2)
-
-Level 5 Header (H5)
-Paragraphs
-
-Markdown Input	Output
- 
-One or more consecutive lines of text
-separated by one or more blank lines.
- 
-This is another paragraph.
- 
-One or more consecutive lines of text separated by one or more blank lines.
-
-This is another paragraph.
-
-Line Break
-To create a line break, end a line in a paragraph with two or more spaces.
-
-I am a sentence with  
-a line break.
-I am a sentence with
-a line break.
 
 Lists
 
-Markdown Input	Output
-Unordered lists
 Asterisks, plus signs or dashes:
 
-* Red
-* Green
-* Blue
+	* Red
+	* Green
+	* Blue
 
-+ Red
-+ Green
-+ Blue
+	+ Red
+	+ Green
+	+ Blue
 
-- Red
-- Green
-- Blue
-Red
-Green
-Blue
-Red
-Green
-Blue
-Red
-Green
-Blue
-Ordered lists
-1. Bird
-2. McHale
-3. Parish
-Bird
-McHale
-Parish
+	- Red
+	- Green
+	- Blue
+
+##Ordered lists
+	1. Bird
+	2. McHale
+	3. Parish
+
+
+
 Definition lists
 Term
 : Definition
