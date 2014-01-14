@@ -38,9 +38,11 @@
 
 *Italic*
 	I am *emphasized*
+I am *emphasized*
 
 **Bold**
 	I am **bold**
+I am **bold**
 
 
 ##Links
