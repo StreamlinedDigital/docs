@@ -64,7 +64,7 @@ This is a normal paragraph.
 
 ##Image Call
 	![Alt text](/files/expand_arrow.JPG "Image call example")
-![Alt text](/files/expand_arrow.JPG "Image call example")
+![Alt text](http://www.streamlinedstudio.com/img/logo/Streamlined_Logo-mini.png "Image call example")
 
 
 ##Special Characters
