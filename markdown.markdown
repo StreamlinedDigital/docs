@@ -31,6 +31,9 @@
 ##Definitions
 
 
+
+
+
 ##Emphasis
 
 *Italic*
@@ -41,6 +44,9 @@
 
 
 ##Links
+
+
+
 
 
 ##Code Blocks
@@ -63,7 +69,7 @@ This is a normal paragraph.
 
 
 ##Image Call
-	![Alt text](/files/expand_arrow.JPG "Image call example")
+	![Alt text](http://www.streamlinedstudio.com/img/logo/Streamlined_Logo-mini.png "Image call example")
 ![Alt text](http://www.streamlinedstudio.com/img/logo/Streamlined_Logo-mini.png "Image call example")
 
 
@@ -84,3 +90,8 @@ The following characters sometimes have special meanings in Markdown. You can ma
 	\! exclamation mark
 	\: colon
 	\| pipe
+
+
+
+###Special Thanks###
+-	http://support.mashery.com/docs/customizing_your_portal/Markdown_Cheat_Sheet**##
