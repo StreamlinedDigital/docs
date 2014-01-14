@@ -1,18 +1,13 @@
-Markdown Cheat Sheet
+#Markdown Cheat Sheet
 
-Important: Different types of Mashery pages have different editing properties. Static pages and documentation can take HTML, while the Wiki cannot accept HTML but can accept Markdown.
+##Headers
 
-Headers
-
-Markdown Input	Output
 	# Level 1 Header (H1)
 	## Level 2 Header (H2)
 	##### Level 5 Header (H5)
 
 
-Lists
-
-Asterisks, plus signs or dashes:
+##Lists
 
 	* Red
 	* Green
@@ -52,26 +47,17 @@ An american computer company.
 Term 1
 Term 2
 Definition
+
+
 Emphasis
 
-Markdown Input	Output
-Italic (em tag)
-I am *emphasized*
+*Italic*
+	I am *emphasized*
 
-I am _emphasized_
-I am emphasized
 
-I am emphasized
+**Bold**
+	I am **bold**
 
-Bold (strong tag)
-I am **bold**
-
-I am __bold__
-I am bold
-
-I am bold
-
-Links
 
 Markdown Input	Output
 Inline Method
