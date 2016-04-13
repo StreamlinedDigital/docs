@@ -7,7 +7,6 @@
 	git init
 	git remote add origin git@github.com:StreamlinedStudio/sellrstuff.git
 
-
 ##Pull the .gitignore and readme from the remote branch
 	git pull origin master
 
@@ -20,3 +19,9 @@
 
 ##Verify
 -	go to the remote and verify
+
+
+
+##Change to a different remote
+	git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git
+
