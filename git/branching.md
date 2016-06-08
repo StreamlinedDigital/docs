@@ -14,7 +14,7 @@
 
 
 
-###Rename your local branch.
+###Rename a branch.
 
     git branch -m new-name. ...
     git push origin :old-name new-name.
