@@ -1,0 +1,5 @@
+ - https://msdn.microsoft.com/en-us/library/office/jj860569.aspx
+ - https://msdn.microsoft.com/en-us/library/office/dn531433.aspx
+ - https://msdn.microsoft.com/en-us/library/office/fp142380.aspx
+ - https://msdn.microsoft.com/en-us/library/office/dn292556.aspx
+ - https://msdn.microsoft.com/en-us/library/office/jj164022.aspx
