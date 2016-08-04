@@ -20,3 +20,7 @@
 - Copy/paste `index.html` into the same folder & rename to `default.aspx`
         (*this keeps the index.html at the version folder so if necessary you can test out older versions at a later time.*)
 - move `default.aspx` to root of site.  Confirm yes if asked to overwrite the existing default.aspx (*This sets the default app at the root to the newest version.*)
+
+## Post
+- Merge release branch into develop and master
+- created a tag with version number in master branch
