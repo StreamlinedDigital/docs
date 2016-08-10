@@ -1,1 +1,0 @@
--  A custom intranet template built and owned by Streamlined Studio

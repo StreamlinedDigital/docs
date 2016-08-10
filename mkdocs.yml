@@ -32,5 +32,3 @@ markdown_extensions:
 pages:
 - Home: index.md
 - Shortcuts: 'keyboard-shortcuts/gmail.md'
-- Features:
-    - News:           'features/news.md'

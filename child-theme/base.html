@@ -8,8 +8,8 @@
     <meta name="description" content="{{ page_description }}">{% endif %} {% if site_author %}
     <meta name="author" content="{{ site_author }}">{% endif %} {% if canonical_url %}
     <link rel="canonical" href="{{ canonical_url }}">{% endif %} {% if favicon %}
-    <link rel="shortcut icon" href="{{ base_url }}/{{ favicon }}">{% else %}
-    <link rel="shortcut icon" href="{{ base_url }}/img/favicon.ico">{% endif %}
+    <link rel="shortcut icon" href="{{ base_url }}/assets/{{ favicon }}">{% else %}
+    <link rel="shortcut icon" href="{{ base_url }}/assets/favicon.ico">{% endif %}
 
     <title>{% if page_title %}{{ page_title }} - {% endif %}{{ site_name }} {{ config.extra.version }}</title>
 
@@ -60,7 +60,7 @@
         <!--<p>{% if copyright %}
         <small>{{ copyright }}</small> |
         {% endif %}-->
-<a href="http://streamlinedstudio.com/" target="_blank" class="made-in-cincy">Made with <i class="fa fa-heart" aria-hidden="true">love </i> by  <img src="http://streamlinedstudio.com/wp-content/uploads/streamlined-logo.png" height="30" ></a>
+<a href="http://streamlinedstudio.com/" target="_blank" class="made-in-cincy">Made with <i class="fa fa-heart" aria-hidden="true"> </i> by  <img src="assets/logo-mini-green.png" height="30" ></a>
     </footer>
 
     <script src="{{ base_url }}/js/jquery-1.10.2.min.js"></script>
