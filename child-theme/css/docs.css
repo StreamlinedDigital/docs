@@ -1,0 +1,32 @@
+.label-improved{background-color:#9361cc;}
+.label-fixed{background-color:#428dc9;}
+.label-added{background: #6cc644;}
+
+.first-level a {
+    font-size: 1.3em;
+}
+
+
+
+.col-md-9 a {
+  color: #008cba;
+}
+
+
+/* extra space between headings */
+h1{color:#333}
+h2{margin-top:75px;color:#608519}
+h2:nth-of-type(1) {margin-top:20px;}
+h3{margin-top:40px;}
+h3:nth-of-type(1) {margin-top:20px;}
+
+
+/*footer styles */
+footer{  margin-bottom:40px;}
+footer a:hover{  text-decoration: none;}
+footer a:hover i {color:red}
+
+
+.col-md-9 img{width:100%;}
+
+i {font-style:normal;}

@@ -1,0 +1,36 @@
+site_name: Streamlined Docs
+site_description:
+site_author: Mark Tiderman
+site_url:
+site_favicon: favicon.ico
+copyright: Copyright <a href="http://streamliendstudio.com">Streamlined Studio</a> 2016
+repo_url: "https://github.com/streamlinedstudio/docs"
+
+theme: cinder
+# theme: readthedocs
+# theme: bootstrap
+theme_dir: child-theme
+docs_dir: content
+site_dir:
+use_directory_urls: true
+
+extra:
+    version: v0.70
+
+markdown_extensions:
+    - smarty
+    - sane_lists
+    - toc:
+          permalink: false
+
+
+
+##############
+# This is where the page structure will go.
+##############
+
+pages:
+- Home: index.md
+- Shortcuts: 'keyboard-shortcuts/gmail.md'
+- Features:
+    - News:           'features/news.md'
