@@ -1,5 +1,9 @@
 
+# Keyboard Shortcuts
 
+## Gmail
+
+### Basics
 | Shortcut Key	| Definition
 | ------------- | -----------------|
 | ``⌘ + .``      |	Advance to next window	|
@@ -18,7 +22,7 @@
 |`⌘` + m |	Open spelling suggestions
 
 
-## Formatting
+### Formatting
 | Shortcut Key	| Definition
 | ------------- | -----------------|
 |`⌘` + `Shift` + `5` |	Previous font
@@ -41,7 +45,7 @@
 |`⌘` + \ |	Remove formatting
 
 
-## Jumping
+### Jumping
 | Shortcut Key	| Definition
 | ------------- | -----------------|
 |`g` then `i` |	Go to Inbox
@@ -52,21 +56,30 @@
 |g then c |	Go to Contacts
 |g then k |	Go to Tasks
 |g then l |	Go to Label
-|Threadlist selection
+
+### Threadlist
+| Shortcut Key	| Definition
+| ------------- | -----------------|
 |* then a |	Select all conversations
 |* then n |	Deselect all conversations
 |* then r |	Select read conversations
 |* then u |	Select unread conversations
 |* then s |	Select starred conversations
 |* then t |	Select unstarred conversations
-|Navigation
+
+### Navigation
+| Shortcut Key	| Definition
+| ------------- | -----------------|
 |u |	Back to threadlist
 |k / j |	Newer/older conversation
 |o or `Enter` |	Open conversation; collapse/expand conversation
 |p / n |	Read previous/next message
 |` |	Go to next inbox section
 |~ |	Go to previous inbox section
-|Application
+
+### Application
+| Shortcut Key	| Definition
+| ------------- | -----------------|
 |c |	Compose
 |d |	Compose in a tab (new compose only)
 |/ |	Search mail
@@ -75,7 +88,10 @@
 |v |	Open "move to" menu
 |l |	Open "label as" menu
 |? |	Open keyboard shortcut help
-|Actions
+
+### Actions
+| Shortcut Key	| Definition
+| ------------- | -----------------|
 |, |	Move focus to toolbar
 |x |	Select conversation
 |s |	Toggle star/Rotate among superstars
@@ -102,7 +118,10 @@
 |; |	Expand entire conversation
 |`|` |	Collapse entire conversation
 |`Shift` + t |	Add conversation to Tasks
-|Hangouts
+
+### Hangouts
+| Shortcut Key	| Definition
+| ------------- | -----------------|
 |h then m |	Show menu
 |h then a |	Show Archived Hangouts
 |h then i |	Show Hangout requests

@@ -31,6 +31,5 @@ markdown_extensions:
 
 pages:
 - Home: index.md
-- Shortcuts:
-    - Gmail: 'keyboard-shortcuts/gmail.md'
-    - Terminal: 'keyboard-shortcuts/terminal.md'
+- Shortcuts: 'shortcuts.md'
+- Terminal: 'keyboard-shortcuts/terminal.md'
