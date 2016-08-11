@@ -15,7 +15,7 @@ site_dir:
 use_directory_urls: true
 
 extra:
-    version: v0.70
+    version: 
 
 markdown_extensions:
     - smarty

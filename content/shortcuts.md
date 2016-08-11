@@ -3,7 +3,7 @@
 
 ## Gmail
 
-### Basics
+#### Basics
 | Shortcut Key	| Definition
 | ------------- | -----------------|
 | ``⌘ + .``      |	Advance to next window	|
@@ -22,7 +22,7 @@
 |`⌘` + m |	Open spelling suggestions
 
 
-### Formatting
+#### Formatting
 | Shortcut Key	| Definition
 | ------------- | -----------------|
 |`⌘` + `Shift` + `5` |	Previous font
@@ -45,7 +45,7 @@
 |`⌘` + \ |	Remove formatting
 
 
-### Jumping
+#### Jumping
 | Shortcut Key	| Definition
 | ------------- | -----------------|
 |`g` then `i` |	Go to Inbox
@@ -57,7 +57,7 @@
 |g then k |	Go to Tasks
 |g then l |	Go to Label
 
-### Threadlist
+#### Threadlist
 | Shortcut Key	| Definition
 | ------------- | -----------------|
 |* then a |	Select all conversations
@@ -77,7 +77,7 @@
 |` |	Go to next inbox section
 |~ |	Go to previous inbox section
 
-### Application
+#### Application
 | Shortcut Key	| Definition
 | ------------- | -----------------|
 |c |	Compose
