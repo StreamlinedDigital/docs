@@ -32,4 +32,7 @@ markdown_extensions:
 pages:
 - Home: index.md
 - Shortcuts: 'shortcuts.md'
-- Terminal: 'keyboard-shortcuts/terminal.md'
+- Git:       'git.md'
+- Projects:
+  - Deployments: 'deployments.md'
+- Terminal:  'terminal.md'

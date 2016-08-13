@@ -1,4 +1,59 @@
+#Adding a remote repo
+
+##Setup the repo
+-	add the gitignore & readme
+
+##Initialize the remote repo
+	git init
+	git remote add origin git@github.com:StreamlinedStudio/sellrstuff.git
+
+##Pull the .gitignore and readme from the remote branch
+	git pull origin master
+
+
+##Add, Commit & Push repo to the remote
+	git status /check to make sure the .gitignore files are not included
+	git add .  /adds all files
+	git commit -m "uploaded project"
+	git push -u origin master
+
+##Verify
+-	go to the remote and verify
+
+
+
+##Change to a different remote
+	git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git
+
+
+
+#Branching
+
+###delete a local branch
+`$ git branch -d hotfix`
+
+
+###delete a remote branch
+`$ git push origin <branchName> --delete`
+
+###oops i committed something to the wrong branch
+````
+    git reset --soft HEAD^
+    git checkout [branchname]
+    git commit
+````
+
+
+###Rename a branch.
+````
+    git branch -m new-name. ...
+    git push origin :old-name new-name.
+    git push origin -u new-name.
+````
+
+
 http://nvie.com/posts/a-successful-git-branching-model/#why-git
+## Git Branching
 
 ##Main Branches
 
@@ -36,3 +91,40 @@ When the state of the release branch is ready to become a real release, some act
 They arise from the necessity to act immediately upon an undesired state of a live production version. When a critical bug in a production version must be resolved immediately, a hotfix branch may be branched off from the corresponding tag on the master branch that marks the production version.
 
 When finished, the bugfix needs to be merged back into master, but also needs to be merged back into develop, in order to safeguard that the bugfix is included in the next release as well.
+
+
+#gitignore
+
+To untrack a single file that has already been added/initialized to your repository, i.e., stop tracking the file but not delete it from your system use: git rm --cached filename
+
+##  Ignore files that have already been committed to a Git repository
+To untrack every file that is now in your .gitignore:
+
+First commit any outstanding code changes, and then, run this command:
+
+`git rm -r --cached .`
+This removes any changed files from the index(staging area), then just run:
+
+`git add .`
+Commit it:
+
+`git commit -m ".gitignore is now working"`
+To undo git rm --cached filename, use git add filename.
+
+
+
+
+#cloning
+
+## get an existing repo
+	$ git clone git@github.com:StreamlinedStudio/existing-project1.git
+
+That creates a directory named project1, initializes a .git directory inside it, pulls down all the data for that repository, and checks out a working copy of the latest version. If you go into the new project1 directory, you’ll see the project files in there, ready to be worked on or used. If you want to clone the repository into a directory named something other than grit, you can specify that as the next command-line option:
+
+	$ git clone git@github.com:StreamlinedStudio/existing-repo.git newfolder
+That command does the same thing as the previous one, but the target directory is called newfolder.
+
+
+##clone an existing repo into a new folder
+	git clone -b new-project git@github.com:User/YourProject.git newProject
+	git clone -b <branch name> <remote repo> <new folder>
